@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
 
         val rg = findViewById<RadioGroup>(R.id.rg);
         val sub = findViewById<Button>(R.id.btnSub);
-        val cancel = findViewById<Button>(R.id.cancel);
+        val cancel = findViewById<Button>(R.id.reset);
 
         var totalMark=0;
 
